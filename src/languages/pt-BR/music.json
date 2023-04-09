@@ -1,0 +1,59 @@
+{
+    "commands": {
+        "play": {
+            "error": "Você precisa estar em um canal de voz antes!",
+            "loadfailed": ":x: Falha ao carregar. Erro: ",
+            "nomatches": "Ops, não encontrei nada...",
+            "playlist": "Carregada!",
+            "queued": "Música adicionada a lista"
+        },
+        "stop": {
+            "error": "Ops, não há nada tocando no momento!",
+            "nocall": "Ops, você precisa estar em um de voz!",
+            "nocall2": "Ops, você precisa estar no mesmo canal que eu!",
+            "sucess": "Música parada com sucesso!"
+        },
+        "skip": {
+            "errors": {
+                "1": "Ops, não estou tocando nada no momento!",
+                "2": "Ops, você precisa estar em um canal de voz!",
+                "3": "Ops, não achei mais nenhuma musica na fila, então encerrei o player!",
+                "4": ""
+            },
+            "sucessskip": "Música pulada com sucesso!"
+        },
+	"pause": {
+            "error": "Ops, não há nada tocando no momento!",
+	    "error2": "Ops, a música já está pausada!",
+            "nocall": "Ops, você precisa estar em um de voz!",
+            "nocall2": "Ops, você precisa estar no mesmo canal que eu!",
+            "sucess": "Música pausada com sucesso!"
+        },
+	"resume": {
+            "error": "Ops, não há nada tocando no momento!",
+	    "error2": "Ops, a música já está tocando!",
+            "nocall": "Ops, você precisa estar em um de voz!",
+            "nocall2": "Ops, você precisa estar no mesmo canal que eu!",
+            "sucess": "Música retomada com sucesso!"
+        },
+	"volume": {
+            "error": "Ops, não há nada tocando no momento!",
+	    "error2": "Ops, você precisa estar no mesmo canal que eu!",
+	    "error3": "O volume deve estar entre 0 á 200!",
+            "sucess": "Volume alterado para `{{vol}}` com sucesso com sucesso!"
+        },
+      	"loop": {
+            "error": "Ops, não há nada tocando no momento!",
+            "nocall": "Ops, você precisa estar em um de voz!",
+            "nocall2": "Ops, você precisa estar no mesmo canal que eu!",
+            "sucesstrack1": "A música `{{current}}` foi adicionada ao loop!",
+            "sucesstrack2": "A música `{{current}}` foi removida do loop!",
+            "sucessqueue1": "A lista de músicas foi adicionada ao loop!",
+            "sucessqueue2": "A lista de músicas foi removida do loop!"
+        }
+    },
+    "events": {
+        "nowplaying": "Tocando agora",
+        "queueend": "Ops, não achei mais nenhuma musica na fila, então encerrei o player!"
+    }
+}

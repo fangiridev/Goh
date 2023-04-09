@@ -1,0 +1,4 @@
+DISPLAY_NAME=GohBot
+MAIN=index.js
+MEMORY=256
+VERSION=latest

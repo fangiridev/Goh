@@ -1,0 +1,139 @@
+{
+     "help": {
+       "title": "Bot Help Center"
+     },
+     "welcome": {
+       "channel": {
+         "sucess": "The channel **<#{{channel}}>** has been successfully set as the welcome channel."
+       }
+     },
+     "avatar": {
+       "sucess": "Click **[here]({{avatar}})** to download."
+     },
+     "botinfo": {
+       "title": "Hello, my name is Goh!",
+       "description": "Hi, my name is Goh, I'm 15 years old, and I was developed to make every server an extraordinary and cozy place!\n\nI'm currently releasing joy on **{{guilds}} servers** with **{{commandsSize}} amazing commands**. Since December 12, 2022 trying to make Discord a better place!\n\nMade with ❤ by Samuel Vitor || SamuelVitorDev#6037!",
+       "buttons": {
+         "website": "Website",
+         "support": "Support",
+         "invite": "Add me",
+         "stats": "Status"
+       },
+       "stats": "**Shard:** `{{shardId}}/{{shardCount}}`\n**Ping:** `{{clientPing}}ms`\n**RAM used:** `{{memory}}`\n**Allocated RAM memory:** `{{memoryAllocated}}`"
+     },
+     "serverinfo": {
+       "field1": "Created on",
+       "field2": "Owner",
+       "field3": "Total Members",
+       "field4": "Total Channels"
+     },
+     "channelinfo": {
+       "title": "Channel information",
+       "type": "Type",
+       "created": "Created on",
+       "members": "Members",
+       "0": "Text",
+       "2": "Voice",
+       "4": "Category",
+       "5": "Announcement",
+       "10": "Ad Topic",
+       "11": "Public topic",
+       "12": "Private Thread",
+       "13": "Stage Voice",
+       "15": "Forum"
+     },
+     "dashboard": {
+       "error": "Oops, my dashboard is still under development! Please try again later",
+       "sucess": "Here it is: https://gohbot.live/dashboard\nDid you know that through my dashboard you can configure your server? Through the dashboard you can configure `Welcome Message`, `Outgoing Message` and `Autorole` , soon new systems will be added and in order not to miss any news enter my [Support] server (https://discord.gg/2ZJr3PSJSS)! "
+     },
+     "invite": {
+       "reply": "I saw you liked me, add me and improve your server！"
+     },
+     "hug": {
+       "notuser": "{{user}} I saw you didn't mention anyone, do you need a hug? If so here it is!",
+       "user": "{{user1}} gave {{user2}} a hug",
+       "error": "{{user}} you can't hug yourself!"
+     },
+     "kiss": {
+       "notuser": "{{user}} I saw you didn't mention anyone, do you need a hug? If so here it is!",
+       "user": "{{user1}} kissed {{user2}}!",
+       "error": "{{user}} you can't kiss yourself!"
+     },
+     "slap": {
+       "user": "{{user1}} slapped {{user2}}!",
+       "error": "{{user}} you cannot slap yourself!"
+     },
+     "fun": {
+       "achievement": "Progress Made!"
+     },
+     "daily": {
+         "notdb": "Oops, I saw that you weren't saved in my database, but I saved you now, use the command again!",
+         "error": "<@{{userId}}>, wait **{{temp}}** until you get daily {{money}} again!",
+         "sucess": "<@{{userId}}>, you've redeemed your daily reward today and got **{{pesadelos}} {{money}}**.\nNow you own **{{abrev}} { {money}}**."
+     },
+     "work": {
+       "error": "<@{{userId}}>, please wait **{{temp}}** until you can work again!",
+       "sucess": "<@{{userId}}>, you just finished working and you get **{{pesadelos}} {{money}}**.\nNow you have **{{abrev}} {{money} }**."
+     },
+     "coins": {
+       "reply": "You currently have **{{abrev}} {{money}}**! You can earn {{money}} using </daily:1062281793509789739> and </work:1062298123420061706>",
+       "replyuser": "Currently {{user}} has **{{abrev}} {{money}}**! You can earn {{money}} using </daily:1062281793509789739> and </work:1062298123420061706>"
+     },
+     "top": {
+       "reply": "Oops, you want to see who's at the top of the list, huh? Here it is then:\n\n*Fun fact: did you know that you can earn {{money}} using </daily:1062281793509789739> and </work :1062298123420061706>!*"
+     },
+     "pay": {
+       "errors": {
+         "error1": "Oops, invalid amount of GohCoins.",
+         "error2": "Oops, the amount of GohCoins less than or equal to 0",
+         "error3": "Oops, you cannot send yourself GohCoins.",
+         "error4": "Oops, you didn't enter the amount of GohCoins you want to send or you entered more than you have.",
+         "error5": "Oops, I saw that the user who wants to send GohCoins was not saved in my database, but I saved it now, use the command again!",
+         "error6": "You did not execute the command in order to use the buttons."
+       },
+       "confirm": "{{user}}, do you want to send **{{abrev}} GohCoins** to {{usersend}}?!",
+       "cancel": "{{user}}, sending GohCoins cancelled.",
+       "sucess": "{{user}}, GohCoins successfully sent."
+     },
+     "bet": {
+       "error1": "Oops, you don't have `{{amount}}` GohCoins to bet with.",
+       "error2": "Oops, user {{tag}} doesn't have `{{amount}}` GohCoins to bet.",
+       "accept?": "Oops {{user}}, {{author}} wants to bet `{{amount}} GohCoins` against you!!\nClick the button to accept!!",
+       "winner1": "Congratulations {{winner}}! You just won **{{amount}} GohCoins**, funded by {{author}} ~~lol~~!",
+       "winner2": "Congratulations {{winner}}! You just won **{{amount}} GohCoins**, funded by {{user}} ~~lol~~!"
+     },
+     "ban": {
+       "error1": "Oops, it was not possible to ban this member, see if he has a higher role than mine!",
+       "error2": "Oops, you can't ban yourself.",
+       "title": "Banned Member"
+     },
+     "kick": {
+       "error1": "Oops, it was not possible to kick this member, see if he has a higher role than mine!",
+       "error2": "Oops, you can't kick yourself.",
+       "title": "Expelled Member"
+     },
+     "clean": {
+       "error": "Specify a number from 1 to 100",
+       "sucess": "{{messages}} Messages were successfully deleted!"
+     },
+     "roleall": {
+       "errs": {
+         "1": "It was not possible to add the role `@{{role}}`, because it is a role of some bot or system!"
+       },
+       "success": {
+         "1": "The Position `@{{role}}` was successfully added to all members({{members}})!",
+         "2": "The role `@{{role}}` was only added to {{members}}, {{notAddedCount}} didn't get the role! See if my role is above theirs!"
+       }
+     },
+     "rep": {
+       "errors": {
+         "1": "Oops, you can't send yourself a reputation!",
+         "2": "Oops, {{user1}} you must wait **{{time}}** before you can send a reputation again."
+       },
+       "sucess": "{{user1}}, you successfully sent a reputation to **{{user2}}**."
+     },
+     "about": {
+       "error": "Oops, {{user}} your text must be a maximum of 150 characters!",
+       "sucess": "{{user}} your profile text was successfully changed to `{{about}}`!"
+     }
+   }

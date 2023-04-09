@@ -1,0 +1,139 @@
+{
+    "help": {
+      "title": "Central de Ajuda do Bot"
+    },
+    "welcome": {
+      "channel": {
+        "sucess": "o canal **<#{{canal}}>** foi setado como canal de welcome com sucesso."
+      }
+    },
+    "avatar": {
+      "sucess": "Clique **[aqui]({{avatar}})** para baixar."
+    },
+    "botinfo": {
+      "title": "Olá, eu me chanmo Goh!",
+      "description": "Olá, me chamo Goh, tenho 15 anos e, fui desenvolvido para tornar todos os servidores em um lugar extraordinário e aconchegante!\n\nAtualmente estou liberando alegria por **{{guilds}} servidores** com **{{commandsSize}} comandos incríveis**. Desde 12 de Dezembro de 2022 tentando transformar o Discord em um lugar melhor!\n\nMade with ❤ by Samuel Vitor || SamuelVitorDev#6037!",
+      "buttons": {
+        "website": "Website",
+        "support": "Suporte",
+        "invite": "Me Adicione",
+        "stats": "Status"
+      },
+      "stats": "**Shard:** `{{shardId}}/{{shardCount}}`\n**Ping:** `{{clientPing}}ms`\n**Memória RAM usada:** `{{memory}}`\n**Memória RAM alocada:** `{{memoryAllocated}}`"
+    },
+    "serverinfo": {
+      "field1": "Criado em",
+      "field2": "Proprietário",
+      "field3": "Total de Membros",
+      "field4": "Total de Canais"
+    },
+    "channelinfo": {
+      "title": "Informações do canal",
+      "type": "Tipo",
+      "created": "Criado em",
+      "members": "Membros",
+      "0": "Texto",
+      "2": "Voz",
+      "4": "Categoria",
+      "5": "Anúncio",
+      "10": "Tópico de Anúncios",
+      "11": "Tópico público",
+      "12": "Tópico Privado",
+      "13": "Voz de Palco",
+      "15": "Fórum"
+    },
+    "dashboard": {
+      "error": "Ops, minha dashboard ainda está em desenvolvimento! Tente novamente mais tarde",
+      "sucess": "Aqui está: https://gohbot.live/dashboard\nSabia que pela minha dashboard você pode configurar seu servidor? Pela dashboard você pode configurar `Mensagem de Bem Vindo`, `Mensagem de Saida` e `Autorole`, em breve sera adicionado novos sistemas e para não perder nenhuma novidade entre em meu servidor de [Suporte](https://discord.gg/2ZJr3PSJSS)! "
+    },
+    "invite": {
+      "reply": "Vi que você gostou de mim, me adicione e melhore seu servidor！"
+    },
+    "hug": {
+      "notuser": "{{user}} vi que você não mencionou ninguem, está precisando de um abraço? Se sim aqui está!",
+      "user": "{{user1}} deu um abraço no(a) {{user2}}",
+      "error": "{{user}} você não pode si abraçar!"
+    },
+    "kiss": {
+      "notuser": "{{user}} vi que você não mencionou ninguem, está precisando de um abraço? Se sim aqui está!",
+      "user": "{{user1}} deu um beijo no(a) {{user2}}!",
+      "error": "{{user}} você não pode si beijar!"
+    },
+    "slap": {
+      "user": "{{user1}} deu um tapa no(a) {{user2}}!",
+      "error": "{{user}} você não pode dar um tapa em si mesmo(a)!"
+    },
+    "fun": {
+      "achievment": "Progresso Feito!"
+    },
+    "daily": {
+        "notdb": "Ops, vi que você não foi salvo na minha database, mas salvei você agora, use o comando novamente!",
+        "error": "<@{{userId}}>, aguarde **{{temp}}** até pegar os {{money}} diários novamente!",
+        "sucess": "<@{{userId}}>, você resgatou seu prêmio diário de hoje e conseguiu **{{pesadelos}} {{money}}**.\nAgora você possui **{{abrev}} {{money}}**."
+    },
+    "work": {
+      "error": "<@{{userId}}>, aguarde **{{temp}}** até poder trabalhar novamente novamente!",
+      "sucess": "<@{{userId}}>, você acaba de trabalhar e recebe **{{pesadelos}} {{money}}**.\nAgora você possui **{{abrev}} {{money}}**."
+    },
+    "coins": {
+      "reply": "Atualmente você tem **{{abrev}} {{money}}**! Você pode ganhar {{money}} usando </daily:1062281793509789739> e </work:1062298123420061706>",
+      "replyuser": "Atualmente {{user}} tem **{{abrev}} {{money}}**! Você pode ganhar {{money}} usando </daily:1062281793509789739> e </work:1062298123420061706>"
+    },
+    "top": {
+      "reply": "Opa, está querendo ver quem está no topo da lista né? Aqui está então:\n\n*Curiosidade: sabia que você pode ganhar {{money}} usando </daily:1062281793509789739> e </work:1062298123420061706>!*"
+    },
+    "pay": {
+      "errors": {
+        "error1": "Ops, quantia de GohCoins invalida.",
+        "error2": "Ops, a quantia de GohCoins menor ou igual a 0",
+        "error3": "Ops, você não pode enviar GohCoins para si mesmo.",
+        "error4": "Ops, você não inseriu a quantidade de GohCoins que deseja enviar ou colocou mais do que você tem.",
+        "error5": "Ops, vi que o usuário que deseja enviar GohCoins não foi salvo na minha database, mas salvei ele agora, use o comando novamente!",
+        "error6": "Você não executou o comando para poder usar os botões."
+      },
+      "confirm": "{{user}}, você deseja enviar **{{abrev}} GohCoins** para o(a) {{usersend}}?!",
+      "cancel": "{{user}}, envio de GohCoins cancelado.",
+      "sucess": "{{user}}, GohCoins enviados com sucesso."
+    },
+    "bet": {
+      "error1": "Ops, você não possui `{{amount}}` GohCoins para apostar.",
+      "error2": "Ops, o usuário {{tag}} não possui `{{amount}}` GohCoins para apostar.",
+      "accept?": "Opa {{user}}, {{author}} quer apostar `{{amount}} GohCoins` cotra você!!\nPara aceitar clique no botão!!",
+      "winner1": "Parabéns {{winner}}! Você acaba de ganhar **{{amount}} GohCoins**, financiados por {{author}} ~~rsrs~~!",
+      "winner2": "Parabéns {{winner}}! Você acaba de ganhar **{{amount}} GohCoins**, financiados por {{user}} ~~rsrs~~!"
+    },
+    "ban": {
+      "error1": "Ops, não foi possivel banir esse membro, veja se ele tem um cargo maior que o meu!",
+      "error2": "Ops, você não pode si banir.",
+      "title": "Membro Banido"
+    },
+    "kick": {
+      "error1": "Ops, não foi possivel expulsar esse membro, veja se ele tem um cargo maior que o meu!",
+      "error2": "Ops, você não pode si expulsar.",
+      "title": "Membro Expulso"
+    },
+    "clean": {
+      "error": "Especifique um número de 1 a 100",
+      "sucess": "{{messages}} Mensagens foram apagadas com sucesso!"
+    },
+    "roleall": {
+      "errs": {
+        "1": "Não foi possivel adicionar o cargo `@{{role}}`, porque é um cargo de algum bot ou sistema!"
+      },
+      "sucess": {
+        "1": "O Cargo `@{{role}}` foi adicionado á todos os membros com sucesso({{members}})!",
+        "2": "O cargo `@{{role}}` foi adicionado apenas á {{members}}, {{notAddedCount}} não receberam o cargo! Veja se meu cargo está acima ao deles!"
+      }
+    },
+    "rep": {
+      "errors": {
+        "1": "Ops, você não pode enviar uma reputação para si mesmo!",
+        "2": "Ops, {{user1}} você deve aguardar **{{time}}** para poder enviar uma reputação de novo."
+      },
+      "sucess": "{{user1}}, você enviou uma reputação para o(a) **{{user2}}** com sucesso."
+    },
+    "about": {
+      "error": "Ops, {{user}} o seu texto deve ter no maximo 150 caracteres!",
+      "sucess": "{{user}} o texto do seu perfil foi alterado para `{{about}}` com sucesso!"
+    }
+  }

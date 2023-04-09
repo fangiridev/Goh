@@ -1,0 +1,50 @@
+{
+     "commands": {
+         "play": {
+             "error": "You need to be on a voice channel first!",
+             "loadfailed": ":x: Failed to load. Error: ",
+             "nomatches": "Oops, I didn't find anything...",
+             "playlist": "Loaded!",
+             "queued": "Song added to playlist"
+         },
+         "stop": {
+             "error": "Oops, nothing is playing right now!",
+             "nocall": "Oops, you need to be on a voice call!",
+             "nocall2": "Oops, you need to be on the same channel as me!",
+             "sucess": "Song stopped successfully!"
+         },
+         "skip": {
+             "errors": {
+                 "1": "Oops, I'm not playing anything right now!",
+                 "2": "Oops, you need to be on a voice channel!",
+                 "3": "Oops, I couldn't find any more songs in the queue, so I closed the player!",
+                 "4": ""
+             },
+             "sucessskip": "Successfully skipped song!"
+         },
+"pause": {
+             "error": "Oops, nothing is playing right now!",
+"error2": "Oops, the music is already paused!",
+             "nocall": "Oops, you need to be on a voice call!",
+             "nocall2": "Oops, you need to be on the same channel as me!",
+             "sucess": "Song paused successfully!"
+         },
+"resume": {
+             "error": "Oops, nothing is playing right now!",
+"error2": "Oops, the music is already playing!",
+             "nocall": "Oops, you need to be on a voice call!",
+             "nocall2": "Oops, you need to be on the same channel as me!",
+             "sucess": "Song resumed successfully!"
+         },
+"volume": {
+             "error": "Oops, nothing is playing right now!",
+"error2": "Oops, you need to be on the same channel as me!",
+"error3": "The volume must be between 0 to 200!",
+             "sucess": "Volume changed to `{{vol}}` successfully successfully!"
+         }
+     },
+     "events": {
+         "nowplaying": "Now playing",
+         "queueend": "Oops, I couldn't find any more songs in the queue, so I closed the player!"
+     }
+}
